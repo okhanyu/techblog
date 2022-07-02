@@ -2,9 +2,9 @@
 {{ $data := .Data }}
 <div class="post-warp archive">
     <h2 class="post-title" style="text-align:right;padding-bottom:2em">&nbsp;{{ $data.Plural | humanize }}{{ .Title }}&nbsp;</h2>
-    {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
-    <h3>{{ .Key }}</h3>
-
+    
+    <!-- {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }} -->
+   <!--  <h3>{{ .Key }}</h3> -->
     {{ range .Pages }}
     <article class="archive-item" style="margin-top:1rem">
         <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
@@ -15,7 +15,8 @@
          <hr style="height:1px;border:none;border-top:1px dashed #000;" />
     </article>
 
-    {{ end }} {{ end }}
+    {{ end }} 
+    <!-- {{ end }} -->
     {{ partial "paginator.html" . }}
 </div>
 {{end }}

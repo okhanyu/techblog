@@ -25,7 +25,8 @@
 
             .post-meta {
                 a {
-                    color: rgba(85, 85, 85, 0.52941) !important;
+                    //color: rgba(85, 85, 85, 0.52941) !important;
+                    color: rgb(7, 7, 7) !important;
                     .dark-theme & {
                         color: $dark-font-secondary-color !important;
                     }
@@ -41,7 +42,8 @@
             .post-tags {
                 span {
                     a {
-                        color: rgba(85, 85, 85, 0.52941) !important;
+                       //color: rgba(85, 85, 85, 0.52941) !important;
+                        color: rgb(7, 7, 7) !important;
                         .dark-theme & {
                             color: $dark-font-secondary-color !important;
                         }

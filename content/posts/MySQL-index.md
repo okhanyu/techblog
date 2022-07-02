@@ -4,17 +4,9 @@ date: 2022-02-09T22:40:49+08:00
 draft: false
 categories: ["数据库"]
 tags: ["MySQL","索引"]
-featured_image: https://file.hanyu.cool/site/tech/article/mysql_index/MySQL%E5%B0%81%E9%9D%A2%E5%9B%BE-%E4%B8%AA%E7%AB%99-%E9%95%BF%E5%9B%BE.png
 author: 韩西瓜
 description: 浅尝索引
 foreword: 辛苦移步微信公众号点赞、在看、关注、转发
-
-toc: true
-custom_cover: 
-tmpbg: 
-pageLocaltion: 
-attendpos: 
-attendbg: 
 ---
 
 ## 写在前面的废话

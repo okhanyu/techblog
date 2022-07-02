@@ -37,7 +37,7 @@
      <div class="tag-cloud-tags">
           {{ range $.Site.Taxonomies.tags.ByCount }}
             {{ if .Name }}
-            <a href="/tags/{{ .Name | urlize}}/"> {{ .Name }} <small>({{ .Count }})</small></a>
+            <a href="{{ .Name | urlize}}/"> {{ .Name }} <small>({{ .Count }})</small></a>
             {{ end }}
           {{end}}
      </div>

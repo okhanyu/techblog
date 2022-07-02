@@ -33,7 +33,7 @@
                     span {
                         display: block;
                         background: #000;
-                        width: 36px;
+                        width: 22px;
                         height: 2px;
                         -webkit-border-radius: 3px;
                         -moz-border-radius: 3px;
@@ -48,10 +48,10 @@
                     }
 
                     span:nth-child(1) {
-                        margin-bottom: 8px;
+                        margin-bottom: 4px;
                     }
                     span:nth-child(3) {
-                        margin-top: 8px;
+                        margin-top: 4px;
                     }
 
                     &.active {

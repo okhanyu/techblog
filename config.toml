@@ -1,6 +1,6 @@
 baseURL = "https://hanyu.cool/techblog/"
 languageCode = "zh-cn"
-title = "韩西瓜 | 我要喝啤酒啊 "
+title = " 韩西瓜 "
 theme = "KeepIt-master"
 summaryLength = 70
 hasCJKLanguage = true
@@ -37,7 +37,7 @@ paginate = 6
   
     since = 2021
     author = "韩西瓜"               # Author's name
-    subtitle = "嘿，朋友，我是韩西瓜，一名Developer，目前就职于腾讯，欢迎关注公众号「韩西瓜」，期待和你遇见呀"       # Subtitle
+    subtitle = "嘿，欢迎来到 <span style='font-weight:bold'> hanyu.cool </span>, 我是韩西瓜，很高兴遇见你"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "post" # post or other
 
@@ -47,7 +47,7 @@ paginate = 6
     pinterest_verification = ""
     baidu_verification = ""
 
-    avatar = "https://file.hanyu.cool/site/home/static/v1/img/avatar.jpeg" #comment it to use gravatar
+    avatar = "http://hanyu.cool/common/img/me.png" #comment it to use gravatar
     socialShare = true
 
     description = "" # site description
@@ -184,32 +184,27 @@ clientSecret = "" # Your client secret
 
 [menu]
   [[menu.main]]
-    identifier = "nav"
-    name       = "Nav"
-    url        = "../"
-    weight     = 1
-  [[menu.main]]
     identifier = "Home"
     name       = "Home"
     url        = "/"
-    weight     = 2
+    weight     = 1
   [[menu.main]]
     identifier = "Post"
     name       = "Posts"
     url        = "/posts/"
-    weight     = 3
+    weight     = 2
   [[menu.main]]
     identifier = "Categories"
-    name       = "categories"
+    name       = "Categories"
     url        = "/categories/"
-    weight     = 4
+    weight     = 3
   [[menu.main]]
     identifier = "Tags"
     name       = "Tags"
     url        = "/tags/"
-    weight     = 5
+    weight     = 4
   [[menu.main]]
     identifier = "About"
     name       = "About"
-    url        = "/about/"
-    weight     = 6
+    url        = "https://hanyu.cool/about/"
+    weight     = 5

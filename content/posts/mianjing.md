@@ -4,17 +4,9 @@ date: 2022-02-25T00:19:49+08:00
 draft: false
 categories: ["面试复盘"]
 tags: ["面经","求职"]
-featured_image: https://file.hanyu.cool/site/tech/article/mianjing/%E9%9D%A2%E7%BB%8F-%E7%9C%9F%E4%B8%AA%E7%AB%99-%E5%B0%81%E9%9D%A2.png
 author: 韩西瓜
 description: 大厂面试复盘
 foreword: 辛苦移步微信公众号点赞、在看、关注、转发
-
-toc: true
-attendpos: 
-attendbg: 
-custom_cover: 
-tmpbg: 
-pageLocaltion: 
 ---
 
 ## 背景

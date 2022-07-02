@@ -4,17 +4,9 @@ date: 2021-03-23T22:40:49+08:00
 draft: false
 categories: ["中间件"]
 tags: ["Redis","Jedis"]
-featured_image: https://file.hanyu.cool/site/tech/article/redis_lock_shop/Redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%B0%81%E9%9D%A2%E5%9B%BE-%E4%B8%AA%E7%AB%99-%E9%95%BF%E5%9B%BE.png
 foreword: 辛苦移步微信公众号点赞、在看、关注
 author: 韩西瓜
 description: 埋坑之路 
-
-toc: true
-attendpos: 
-pageLocaltion:
-custom_cover: 
-attendbg: 
-tmpbg:
 ---
 
 
